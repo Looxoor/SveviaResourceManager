@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD8B7F4A21658E3B00092B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F4921658E3B00092B49 /* AppDelegate.swift */; };
+		DD8B7F4C21658E3B00092B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F4B21658E3B00092B49 /* ViewController.swift */; };
+		DD8B7F4F21658E3B00092B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8B7F4D21658E3B00092B49 /* Main.storyboard */; };
+		DD8B7F5121658E3B00092B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8B7F5021658E3B00092B49 /* Assets.xcassets */; };
+		DD8B7F5421658E3B00092B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8B7F5221658E3B00092B49 /* LaunchScreen.storyboard */; };
+		DD8B7F5F21658E3B00092B49 /* SveviaResourceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F5E21658E3B00092B49 /* SveviaResourceManagerTests.swift */; };
+		DD8B7F6A21658E3B00092B49 /* SveviaResourceManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F6921658E3B00092B49 /* SveviaResourceManagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD8B7F5B21658E3B00092B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD8B7F3E21658E3A00092B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8B7F4521658E3A00092B49;
+			remoteInfo = SveviaResourceManager;
+		};
+		DD8B7F6621658E3B00092B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD8B7F3E21658E3A00092B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8B7F4521658E3A00092B49;
+			remoteInfo = SveviaResourceManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD8B7F4621658E3B00092B49 /* SveviaResourceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SveviaResourceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8B7F4921658E3B00092B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD8B7F4B21658E3B00092B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD8B7F4E21658E3B00092B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD8B7F5021658E3B00092B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD8B7F5321658E3B00092B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD8B7F5521658E3B00092B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8B7F5A21658E3B00092B49 /* SveviaResourceManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SveviaResourceManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8B7F5E21658E3B00092B49 /* SveviaResourceManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SveviaResourceManagerTests.swift; sourceTree = "<group>"; };
+		DD8B7F6021658E3B00092B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8B7F6521658E3B00092B49 /* SveviaResourceManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SveviaResourceManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8B7F6921658E3B00092B49 /* SveviaResourceManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SveviaResourceManagerUITests.swift; sourceTree = "<group>"; };
+		DD8B7F6B21658E3B00092B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD8B7F4321658E3A00092B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B7F5721658E3B00092B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B7F6221658E3B00092B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD8B7F3D21658E3A00092B49 = {
+			isa = PBXGroup;
+			children = (
+				DD8B7F4821658E3B00092B49 /* SveviaResourceManager */,
+				DD8B7F5D21658E3B00092B49 /* SveviaResourceManagerTests */,
+				DD8B7F6821658E3B00092B49 /* SveviaResourceManagerUITests */,
+				DD8B7F4721658E3B00092B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD8B7F4721658E3B00092B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B7F4621658E3B00092B49 /* SveviaResourceManager.app */,
+				DD8B7F5A21658E3B00092B49 /* SveviaResourceManagerTests.xctest */,
+				DD8B7F6521658E3B00092B49 /* SveviaResourceManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD8B7F4821658E3B00092B49 /* SveviaResourceManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B7F4921658E3B00092B49 /* AppDelegate.swift */,
+				DD8B7F4B21658E3B00092B49 /* ViewController.swift */,
+				DD8B7F4D21658E3B00092B49 /* Main.storyboard */,
+				DD8B7F5021658E3B00092B49 /* Assets.xcassets */,
+				DD8B7F5221658E3B00092B49 /* LaunchScreen.storyboard */,
+				DD8B7F5521658E3B00092B49 /* Info.plist */,
+			);
+			path = SveviaResourceManager;
+			sourceTree = "<group>";
+		};
+		DD8B7F5D21658E3B00092B49 /* SveviaResourceManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B7F5E21658E3B00092B49 /* SveviaResourceManagerTests.swift */,
+				DD8B7F6021658E3B00092B49 /* Info.plist */,
+			);
+			path = SveviaResourceManagerTests;
+			sourceTree = "<group>";
+		};
+		DD8B7F6821658E3B00092B49 /* SveviaResourceManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B7F6921658E3B00092B49 /* SveviaResourceManagerUITests.swift */,
+				DD8B7F6B21658E3B00092B49 /* Info.plist */,
+			);
+			path = SveviaResourceManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD8B7F4521658E3A00092B49 /* SveviaResourceManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8B7F6E21658E3B00092B49 /* Build configuration list for PBXNativeTarget "SveviaResourceManager" */;
+			buildPhases = (
+				DD8B7F4221658E3A00092B49 /* Sources */,
+				DD8B7F4321658E3A00092B49 /* Frameworks */,
+				DD8B7F4421658E3A00092B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SveviaResourceManager;
+			productName = SveviaResourceManager;
+			productReference = DD8B7F4621658E3B00092B49 /* SveviaResourceManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD8B7F5921658E3B00092B49 /* SveviaResourceManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8B7F7121658E3B00092B49 /* Build configuration list for PBXNativeTarget "SveviaResourceManagerTests" */;
+			buildPhases = (
+				DD8B7F5621658E3B00092B49 /* Sources */,
+				DD8B7F5721658E3B00092B49 /* Frameworks */,
+				DD8B7F5821658E3B00092B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD8B7F5C21658E3B00092B49 /* PBXTargetDependency */,
+			);
+			name = SveviaResourceManagerTests;
+			productName = SveviaResourceManagerTests;
+			productReference = DD8B7F5A21658E3B00092B49 /* SveviaResourceManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD8B7F6421658E3B00092B49 /* SveviaResourceManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD8B7F7421658E3B00092B49 /* Build configuration list for PBXNativeTarget "SveviaResourceManagerUITests" */;
+			buildPhases = (
+				DD8B7F6121658E3B00092B49 /* Sources */,
+				DD8B7F6221658E3B00092B49 /* Frameworks */,
+				DD8B7F6321658E3B00092B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD8B7F6721658E3B00092B49 /* PBXTargetDependency */,
+			);
+			name = SveviaResourceManagerUITests;
+			productName = SveviaResourceManagerUITests;
+			productReference = DD8B7F6521658E3B00092B49 /* SveviaResourceManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD8B7F3E21658E3A00092B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Seizemore Consulting";
+				TargetAttributes = {
+					DD8B7F4521658E3A00092B49 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DD8B7F5921658E3B00092B49 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DD8B7F4521658E3A00092B49;
+					};
+					DD8B7F6421658E3B00092B49 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DD8B7F4521658E3A00092B49;
+					};
+				};
+			};
+			buildConfigurationList = DD8B7F4121658E3A00092B49 /* Build configuration list for PBXProject "SveviaResourceManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD8B7F3D21658E3A00092B49;
+			productRefGroup = DD8B7F4721658E3B00092B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD8B7F4521658E3A00092B49 /* SveviaResourceManager */,
+				DD8B7F5921658E3B00092B49 /* SveviaResourceManagerTests */,
+				DD8B7F6421658E3B00092B49 /* SveviaResourceManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD8B7F4421658E3A00092B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8B7F5421658E3B00092B49 /* LaunchScreen.storyboard in Resources */,
+				DD8B7F5121658E3B00092B49 /* Assets.xcassets in Resources */,
+				DD8B7F4F21658E3B00092B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B7F5821658E3B00092B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B7F6321658E3B00092B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD8B7F4221658E3A00092B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8B7F4C21658E3B00092B49 /* ViewController.swift in Sources */,
+				DD8B7F4A21658E3B00092B49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B7F5621658E3B00092B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8B7F5F21658E3B00092B49 /* SveviaResourceManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8B7F6121658E3B00092B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8B7F6A21658E3B00092B49 /* SveviaResourceManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD8B7F5C21658E3B00092B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD8B7F4521658E3A00092B49 /* SveviaResourceManager */;
+			targetProxy = DD8B7F5B21658E3B00092B49 /* PBXContainerItemProxy */;
+		};
+		DD8B7F6721658E3B00092B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD8B7F4521658E3A00092B49 /* SveviaResourceManager */;
+			targetProxy = DD8B7F6621658E3B00092B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD8B7F4D21658E3B00092B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8B7F4E21658E3B00092B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD8B7F5221658E3B00092B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8B7F5321658E3B00092B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD8B7F6C21658E3B00092B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD8B7F6D21658E3B00092B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8B7F6F21658E3B00092B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L5TZX33X8;
+				INFOPLIST_FILE = SveviaResourceManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.seizemore.SveviaResourceManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD8B7F7021658E3B00092B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L5TZX33X8;
+				INFOPLIST_FILE = SveviaResourceManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.seizemore.SveviaResourceManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD8B7F7221658E3B00092B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L5TZX33X8;
+				INFOPLIST_FILE = SveviaResourceManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.seizemore.SveviaResourceManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SveviaResourceManager.app/SveviaResourceManager";
+			};
+			name = Debug;
+		};
+		DD8B7F7321658E3B00092B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L5TZX33X8;
+				INFOPLIST_FILE = SveviaResourceManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.seizemore.SveviaResourceManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SveviaResourceManager.app/SveviaResourceManager";
+			};
+			name = Release;
+		};
+		DD8B7F7521658E3B00092B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L5TZX33X8;
+				INFOPLIST_FILE = SveviaResourceManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.seizemore.SveviaResourceManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SveviaResourceManager;
+			};
+			name = Debug;
+		};
+		DD8B7F7621658E3B00092B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L5TZX33X8;
+				INFOPLIST_FILE = SveviaResourceManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.seizemore.SveviaResourceManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SveviaResourceManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD8B7F4121658E3A00092B49 /* Build configuration list for PBXProject "SveviaResourceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8B7F6C21658E3B00092B49 /* Debug */,
+				DD8B7F6D21658E3B00092B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8B7F6E21658E3B00092B49 /* Build configuration list for PBXNativeTarget "SveviaResourceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8B7F6F21658E3B00092B49 /* Debug */,
+				DD8B7F7021658E3B00092B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8B7F7121658E3B00092B49 /* Build configuration list for PBXNativeTarget "SveviaResourceManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8B7F7221658E3B00092B49 /* Debug */,
+				DD8B7F7321658E3B00092B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8B7F7421658E3B00092B49 /* Build configuration list for PBXNativeTarget "SveviaResourceManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8B7F7521658E3B00092B49 /* Debug */,
+				DD8B7F7621658E3B00092B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD8B7F3E21658E3A00092B49 /* Project object */;
+}
