@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SveviaResourceManager
+
+  Created by Björn Holmér on 2018-10-05.
+  Copyright © 2018 Seizemore Consulting. All rights reserved.
+*/
+emailDescription = "E-postadress";
+passwordDescription = "Lösenord";
+loginDescription = "Logga in";
+homeDescription = "Hem";

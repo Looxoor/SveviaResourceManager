@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4352F17DFB64E2292BD45326 /* Pods_SveviaResourceManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EC454D4EBDF7874F1BD99C /* Pods_SveviaResourceManager.framework */; };
+		C9D30D00B069FB17EB4CE420 /* Pods_SveviaResourceManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC506A0A01AD30CADFB76BB3 /* Pods_SveviaResourceManagerTests.framework */; };
 		DD8B7F4A21658E3B00092B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F4921658E3B00092B49 /* AppDelegate.swift */; };
-		DD8B7F4C21658E3B00092B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F4B21658E3B00092B49 /* ViewController.swift */; };
+		DD8B7F4C21658E3B00092B49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F4B21658E3B00092B49 /* LoginViewController.swift */; };
 		DD8B7F4F21658E3B00092B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8B7F4D21658E3B00092B49 /* Main.storyboard */; };
 		DD8B7F5121658E3B00092B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8B7F5021658E3B00092B49 /* Assets.xcassets */; };
 		DD8B7F5421658E3B00092B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8B7F5221658E3B00092B49 /* LaunchScreen.storyboard */; };
 		DD8B7F5F21658E3B00092B49 /* SveviaResourceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F5E21658E3B00092B49 /* SveviaResourceManagerTests.swift */; };
 		DD8B7F6A21658E3B00092B49 /* SveviaResourceManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F6921658E3B00092B49 /* SveviaResourceManagerUITests.swift */; };
+		DD8B7F7921658E7900092B49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8B7F7821658E7900092B49 /* MapKit.framework */; };
+		DDEC03FF2166D45000180CE3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDEC03FD2166D45000180CE3 /* Localizable.strings */; };
+		DDEC0406216AD88D00180CE3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC0405216AD88D00180CE3 /* HomeViewController.swift */; };
+		DDFA11E021658F4000FCD002 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA11DF21658F4000FCD002 /* GoogleService-Info.plist */; };
+		DDFA11E121658F4000FCD002 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA11DF21658F4000FCD002 /* GoogleService-Info.plist */; };
+		DDFA11E221658F4000FCD002 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA11DF21658F4000FCD002 /* GoogleService-Info.plist */; };
+		F9C8818BD0F6B1D41EA3E114 /* Pods_SveviaResourceManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CB51DBD76594328FDE55A1 /* Pods_SveviaResourceManagerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C6F180705CB32EDB545009D /* Pods-SveviaResourceManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SveviaResourceManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SveviaResourceManagerUITests/Pods-SveviaResourceManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		301B6659E0C59DFA74A4B766 /* Pods-SveviaResourceManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SveviaResourceManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SveviaResourceManagerUITests/Pods-SveviaResourceManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92EC454D4EBDF7874F1BD99C /* Pods_SveviaResourceManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SveviaResourceManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CB51DBD76594328FDE55A1 /* Pods_SveviaResourceManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SveviaResourceManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43D1B72DA55E3D4E0E6C3FF /* Pods-SveviaResourceManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SveviaResourceManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SveviaResourceManager/Pods-SveviaResourceManager.debug.xcconfig"; sourceTree = "<group>"; };
+		B170919DCC67A9C7AB504241 /* Pods-SveviaResourceManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SveviaResourceManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SveviaResourceManagerTests/Pods-SveviaResourceManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5F228A69AA8667D9B51D934 /* Pods-SveviaResourceManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SveviaResourceManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-SveviaResourceManager/Pods-SveviaResourceManager.release.xcconfig"; sourceTree = "<group>"; };
+		C23720A30AF6973C985C2095 /* Pods-SveviaResourceManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SveviaResourceManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SveviaResourceManagerTests/Pods-SveviaResourceManagerTests.release.xcconfig"; sourceTree = "<group>"; };
 		DD8B7F4621658E3B00092B49 /* SveviaResourceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SveviaResourceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8B7F4921658E3B00092B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD8B7F4B21658E3B00092B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD8B7F4B21658E3B00092B49 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DD8B7F4E21658E3B00092B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD8B7F5021658E3B00092B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD8B7F5321658E3B00092B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,14 @@
 		DD8B7F6521658E3B00092B49 /* SveviaResourceManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SveviaResourceManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8B7F6921658E3B00092B49 /* SveviaResourceManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SveviaResourceManagerUITests.swift; sourceTree = "<group>"; };
 		DD8B7F6B21658E3B00092B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8B7F7821658E7900092B49 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DDEC03FE2166D45000180CE3 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DDEC0402216A91DE00180CE3 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
+		DDEC0405216AD88D00180CE3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DDFA11DF21658F4000FCD002 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDFA11E4216590C700FCD002 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DDFA11E92165919D00FCD002 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FC506A0A01AD30CADFB76BB3 /* Pods_SveviaResourceManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SveviaResourceManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8B7F7921658E7900092B49 /* MapKit.framework in Frameworks */,
+				4352F17DFB64E2292BD45326 /* Pods_SveviaResourceManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D30D00B069FB17EB4CE420 /* Pods_SveviaResourceManagerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C8818BD0F6B1D41EA3E114 /* Pods_SveviaResourceManagerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D779E262163F91AD08689FF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A43D1B72DA55E3D4E0E6C3FF /* Pods-SveviaResourceManager.debug.xcconfig */,
+				B5F228A69AA8667D9B51D934 /* Pods-SveviaResourceManager.release.xcconfig */,
+				B170919DCC67A9C7AB504241 /* Pods-SveviaResourceManagerTests.debug.xcconfig */,
+				C23720A30AF6973C985C2095 /* Pods-SveviaResourceManagerTests.release.xcconfig */,
+				301B6659E0C59DFA74A4B766 /* Pods-SveviaResourceManagerUITests.debug.xcconfig */,
+				1C6F180705CB32EDB545009D /* Pods-SveviaResourceManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD8B7F3D21658E3A00092B49 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				DD8B7F5D21658E3B00092B49 /* SveviaResourceManagerTests */,
 				DD8B7F6821658E3B00092B49 /* SveviaResourceManagerUITests */,
 				DD8B7F4721658E3B00092B49 /* Products */,
+				DD8B7F7721658E7900092B49 /* Frameworks */,
+				D779E262163F91AD08689FF3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +142,13 @@
 			isa = PBXGroup;
 			children = (
 				DD8B7F4921658E3B00092B49 /* AppDelegate.swift */,
-				DD8B7F4B21658E3B00092B49 /* ViewController.swift */,
+				DDEC0404216AD51800180CE3 /* ViewControllers */,
 				DD8B7F4D21658E3B00092B49 /* Main.storyboard */,
 				DD8B7F5021658E3B00092B49 /* Assets.xcassets */,
 				DD8B7F5221658E3B00092B49 /* LaunchScreen.storyboard */,
 				DD8B7F5521658E3B00092B49 /* Info.plist */,
+				DDFA11DF21658F4000FCD002 /* GoogleService-Info.plist */,
+				DDEC03FD2166D45000180CE3 /* Localizable.strings */,
 			);
 			path = SveviaResourceManager;
 			sourceTree = "<group>";
@@ -125,6 +171,26 @@
 			path = SveviaResourceManagerUITests;
 			sourceTree = "<group>";
 		};
+		DD8B7F7721658E7900092B49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B7F7821658E7900092B49 /* MapKit.framework */,
+				92EC454D4EBDF7874F1BD99C /* Pods_SveviaResourceManager.framework */,
+				FC506A0A01AD30CADFB76BB3 /* Pods_SveviaResourceManagerTests.framework */,
+				A0CB51DBD76594328FDE55A1 /* Pods_SveviaResourceManagerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDEC0404216AD51800180CE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B7F4B21658E3B00092B49 /* LoginViewController.swift */,
+				DDEC0405216AD88D00180CE3 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD8B7F6E21658E3B00092B49 /* Build configuration list for PBXNativeTarget "SveviaResourceManager" */;
 			buildPhases = (
+				2C239DF48E03282B85ADA688 /* [CP] Check Pods Manifest.lock */,
 				DD8B7F4221658E3A00092B49 /* Sources */,
 				DD8B7F4321658E3A00092B49 /* Frameworks */,
 				DD8B7F4421658E3A00092B49 /* Resources */,
+				0D0D8A3C9F312198491C2798 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD8B7F7121658E3B00092B49 /* Build configuration list for PBXNativeTarget "SveviaResourceManagerTests" */;
 			buildPhases = (
+				F3D08D4D44BFE23F6C5A791F /* [CP] Check Pods Manifest.lock */,
 				DD8B7F5621658E3B00092B49 /* Sources */,
 				DD8B7F5721658E3B00092B49 /* Frameworks */,
 				DD8B7F5821658E3B00092B49 /* Resources */,
@@ -167,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD8B7F7421658E3B00092B49 /* Build configuration list for PBXNativeTarget "SveviaResourceManagerUITests" */;
 			buildPhases = (
+				8565201D4E364D771B057F3E /* [CP] Check Pods Manifest.lock */,
 				DD8B7F6121658E3B00092B49 /* Sources */,
 				DD8B7F6221658E3B00092B49 /* Frameworks */,
 				DD8B7F6321658E3B00092B49 /* Resources */,
@@ -193,6 +263,11 @@
 				TargetAttributes = {
 					DD8B7F4521658E3A00092B49 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					DD8B7F5921658E3B00092B49 = {
 						CreatedOnToolsVersion = 10.0;
@@ -206,11 +281,12 @@
 			};
 			buildConfigurationList = DD8B7F4121658E3A00092B49 /* Build configuration list for PBXProject "SveviaResourceManager" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = sv;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				sv,
 				Base,
+				en,
 			);
 			mainGroup = DD8B7F3D21658E3A00092B49;
 			productRefGroup = DD8B7F4721658E3B00092B49 /* Products */;
@@ -229,7 +305,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDEC03FF2166D45000180CE3 /* Localizable.strings in Resources */,
 				DD8B7F5421658E3B00092B49 /* LaunchScreen.storyboard in Resources */,
+				DDFA11E021658F4000FCD002 /* GoogleService-Info.plist in Resources */,
 				DD8B7F5121658E3B00092B49 /* Assets.xcassets in Resources */,
 				DD8B7F4F21658E3B00092B49 /* Main.storyboard in Resources */,
 			);
@@ -239,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFA11E121658F4000FCD002 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +325,113 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFA11E221658F4000FCD002 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D0D8A3C9F312198491C2798 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SveviaResourceManager/Pods-SveviaResourceManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SveviaResourceManager/Pods-SveviaResourceManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C239DF48E03282B85ADA688 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SveviaResourceManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8565201D4E364D771B057F3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SveviaResourceManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D08D4D44BFE23F6C5A791F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SveviaResourceManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD8B7F4221658E3A00092B49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD8B7F4C21658E3B00092B49 /* ViewController.swift in Sources */,
+				DD8B7F4C21658E3B00092B49 /* LoginViewController.swift in Sources */,
 				DD8B7F4A21658E3B00092B49 /* AppDelegate.swift in Sources */,
+				DDEC0406216AD88D00180CE3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +471,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD8B7F4E21658E3B00092B49 /* Base */,
+				DDEC0402216A91DE00180CE3 /* sv */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,8 +480,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD8B7F5321658E3B00092B49 /* Base */,
+				DDFA11E4216590C700FCD002 /* en */,
+				DDFA11E92165919D00FCD002 /* sv */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DDEC03FD2166D45000180CE3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDEC03FE2166D45000180CE3 /* sv */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -430,6 +617,7 @@
 		};
 		DD8B7F6F21658E3B00092B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43D1B72DA55E3D4E0E6C3FF /* Pods-SveviaResourceManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +636,7 @@
 		};
 		DD8B7F7021658E3B00092B49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F228A69AA8667D9B51D934 /* Pods-SveviaResourceManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +655,7 @@
 		};
 		DD8B7F7221658E3B00092B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B170919DCC67A9C7AB504241 /* Pods-SveviaResourceManagerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +677,7 @@
 		};
 		DD8B7F7321658E3B00092B49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23720A30AF6973C985C2095 /* Pods-SveviaResourceManagerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +699,7 @@
 		};
 		DD8B7F7521658E3B00092B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301B6659E0C59DFA74A4B766 /* Pods-SveviaResourceManagerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +720,7 @@
 		};
 		DD8B7F7621658E3B00092B49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6F180705CB32EDB545009D /* Pods-SveviaResourceManagerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
