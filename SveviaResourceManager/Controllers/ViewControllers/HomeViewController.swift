@@ -11,7 +11,7 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var HomeScreenNavBar: UINavigationItem!
-    @IBOutlet weak var HomeScreenTabBar: UITabBarItem!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +20,6 @@ class HomeViewController: UIViewController {
         let navBarTitleText = NSLocalizedString("homeDescription", comment: "Home screen text on navigation bar title")
         HomeScreenNavBar.title = String.localizedStringWithFormat(navBarTitleText)
         
-        let tabBarTitleText = NSLocalizedString("homeDescription", comment: "Home screen text on tab bar title")
-        HomeScreenTabBar.title = String.localizedStringWithFormat(tabBarTitleText)
     }
     
 
