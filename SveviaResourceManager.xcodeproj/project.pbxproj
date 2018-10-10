@@ -20,6 +20,8 @@
 		DDEC03FF2166D45000180CE3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDEC03FD2166D45000180CE3 /* Localizable.strings */; };
 		DDEC0406216AD88D00180CE3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC0405216AD88D00180CE3 /* HomeViewController.swift */; };
 		DDEC040A216C16C200180CE3 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC0409216C16C200180CE3 /* HomeNavigationController.swift */; };
+		DDEC0410216D59F600180CE3 /* LoginDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC040F216D59F600180CE3 /* LoginDelegate.swift */; };
+		DDEC0413216D684800180CE3 /* LocalizeStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC0412216D684800180CE3 /* LocalizeStrings.swift */; };
 		DDFA11E021658F4000FCD002 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA11DF21658F4000FCD002 /* GoogleService-Info.plist */; };
 		DDFA11E121658F4000FCD002 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA11DF21658F4000FCD002 /* GoogleService-Info.plist */; };
 		DDFA11E221658F4000FCD002 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDFA11DF21658F4000FCD002 /* GoogleService-Info.plist */; };
@@ -70,6 +72,8 @@
 		DDEC0402216A91DE00180CE3 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
 		DDEC0405216AD88D00180CE3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DDEC0409216C16C200180CE3 /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
+		DDEC040F216D59F600180CE3 /* LoginDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDelegate.swift; sourceTree = "<group>"; };
+		DDEC0412216D684800180CE3 /* LocalizeStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizeStrings.swift; sourceTree = "<group>"; };
 		DDFA11DF21658F4000FCD002 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DDFA11E4216590C700FCD002 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DDFA11E92165919D00FCD002 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -143,7 +147,9 @@
 		DD8B7F4821658E3B00092B49 /* SveviaResourceManager */ = {
 			isa = PBXGroup;
 			children = (
-				DD8B7F4921658E3B00092B49 /* AppDelegate.swift */,
+				DDEC0411216D674A00180CE3 /* Helper Classes */,
+				DDEC040E216D599E00180CE3 /* Delegates */,
+				DDEC040B216C1DC500180CE3 /* Firebase */,
 				DDEC0404216AD51800180CE3 /* Controllers */,
 				DD8B7F4D21658E3B00092B49 /* Main.storyboard */,
 				DD8B7F5021658E3B00092B49 /* Assets.xcassets */,
@@ -208,6 +214,46 @@
 				DDEC0409216C16C200180CE3 /* HomeNavigationController.swift */,
 			);
 			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		DDEC040B216C1DC500180CE3 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC040D216C1E1A00180CE3 /* Database */,
+				DDEC040C216C1DD100180CE3 /* Authentication */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		DDEC040C216C1DD100180CE3 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DDEC040D216C1E1A00180CE3 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		DDEC040E216D599E00180CE3 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				DD8B7F4921658E3B00092B49 /* AppDelegate.swift */,
+				DDEC040F216D59F600180CE3 /* LoginDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		DDEC0411216D674A00180CE3 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC0412216D684800180CE3 /* LocalizeStrings.swift */,
+			);
+			path = "Helper Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +406,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SveviaResourceManager/Pods-SveviaResourceManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -367,6 +414,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -449,7 +497,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD8B7F4C21658E3B00092B49 /* LoginViewController.swift in Sources */,
+				DDEC0410216D59F600180CE3 /* LoginDelegate.swift in Sources */,
 				DD8B7F4A21658E3B00092B49 /* AppDelegate.swift in Sources */,
+				DDEC0413216D684800180CE3 /* LocalizeStrings.swift in Sources */,
 				DDEC040A216C16C200180CE3 /* HomeNavigationController.swift in Sources */,
 				DDEC0406216AD88D00180CE3 /* HomeViewController.swift in Sources */,
 			);

@@ -13,27 +13,33 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var LoginScreenEmailTextField: UITextField!
     @IBOutlet weak var LoginScreenPasswordTextField: UITextField!
     @IBOutlet weak var LoginScreenNavBar: UINavigationItem!
-    @IBOutlet weak var LoginScreenDoneButton: UIBarButtonItem!
+    @IBOutlet weak var LoginScreenCancelButton: UIBarButtonItem!
+    @IBOutlet weak var LoginScreenLoginButton: UIButton!
+    @IBOutlet weak var LoginScreenLabel: UILabel!
+    
+    let localize = LocalizeStrings.init()
+    
+//    var delegate: LoginSuccessDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        let emailText = NSLocalizedString("emailDescription", comment: "Email adress")
-        LoginScreenEmailTextField.placeholder = String.localizedStringWithFormat(emailText)
         
-        let passwordText = NSLocalizedString("passwordDescription", comment: "Password")
-        LoginScreenPasswordTextField.placeholder = String.localizedStringWithFormat(passwordText)
+        //Populate UIItems with strings from Localizable.strings.
+        localize.setTextFieldPlaceholder(&LoginScreenEmailTextField, localizableDescriptor: "emailDescription", comment: "Email adress")
+        localize.setTextFieldPlaceholder(&LoginScreenPasswordTextField, localizableDescriptor: "passwordDescription", comment: "Password")
+        localize.setNavigationBarTitle(&LoginScreenNavBar, localizableDescriptor: "loginDescription", comment: "Log in text on navigation bar title")
+        localize.setNavigationBarButtonTitle(&LoginScreenCancelButton, localizableDescriptor: "cancelDescription", comment: "Cancel text on navigation bar button")
+        localize.setButtonTitle(&LoginScreenLoginButton, localizableDescriptor: "loginDescription", comment: "Login text on login screen button")
+        localize.setLabelText(&LoginScreenLabel, localizableDescriptor: "loginInfoDescription", comment: "Login information in login screen label")
         
-        let navBarTitleText = NSLocalizedString("loginDescription", comment: "Log in text on navigation bar title")
-        LoginScreenNavBar.title = String.localizedStringWithFormat(navBarTitleText)
-        
-        let doneButtonText = NSLocalizedString("loginDescription", comment: "Log in text on navigation bar button")
-        LoginScreenDoneButton.title = String.localizedStringWithFormat(doneButtonText)
-
     }
     
-    @IBAction func LoginScreenDoneButtonClick(_ sender: UIBarButtonItem) {
+    //Actions
+    @IBAction func LoginScreenCancelButtonClick(_ sender: Any) {
+            dismiss(animated: true, completion: nil)
     }
-
+ 
+    @IBAction func LoginScreenLoginButtonAction(_ sender: Any) {
+    }
+    
 }
-

@@ -9,3 +9,7 @@ emailDescription = "E-postadress";
 passwordDescription = "Lösenord";
 loginDescription = "Logga in";
 homeDescription = "Hem";
+homeScreenNotLoggedIn = "Välkommen till Svevias resurshanterare!\n\nFör att kunna använda applikationen behöver du logga in.";
+homeScreenLoggedIn = "Välkommen till Svevias resurshanterare!";
+loginInfoDescription = "Använd din Svevia-mail och ett personligt lösenord för att logga in.\n\nHar du inget lösenord får du prata med din arbetsledare.";
+cancelDescription = "Avbryt";
