@@ -70,7 +70,6 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="XsI-dw-hTJ">
                         <barButtonItem key="rightBarButtonItem" id="fF0-do-ZVP">
-                            <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="LoginScreenCancelButtonClick:" destination="BYZ-38-t0r" id="WZG-Ze-JT3"/>
                             </connections>

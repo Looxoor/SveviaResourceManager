@@ -9,39 +9,36 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
     @IBOutlet weak var HomeScreenNavBar: UINavigationItem!
     @IBOutlet weak var HomeScreenLabel: UILabel!
+    
+    let localize = LocalizeStrings()
     
     var loggedIn = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Intitialize localized strings
-
-        let navBarTitleText = NSLocalizedString("homeDescription", comment: "Home screen text on navigation bar title")
-        let homeScreenLabelTextNotLoggedIn = NSLocalizedString("homeScreenNotLoggedIn", comment: "Home screen text label when not logged in")
-        let homeScreenLabelTextLoggedIn = NSLocalizedString("homeScreenLoggedIn", comment: "Home screen text label when logged in")
-        let loginButtonText = NSLocalizedString("loginDescription", comment: "Log in text on navigation bar button")
         
-        // Set strings to UIItems
-        HomeScreenNavBar.title = String.localizedStringWithFormat(navBarTitleText)
-
+        //Populate UIItems with strings from Localizable.strings
+        localize.setNavigationBarTitle(&HomeScreenNavBar, localizableDescriptor: "homeDescription", comment: "Home screen text on navigation bar title")
+        
+        
         //Change UI depending on login state
         if self.loggedIn != true {
-            HomeScreenLabel.text = String.localizedStringWithFormat(homeScreenLabelTextNotLoggedIn)
-      
-            let loginButton = UIBarButtonItem(title: String.localizedStringWithFormat(loginButtonText), style: .plain, target: self, action: #selector(loadLoginScreen(_:)))
+            localize.setLabelText(&HomeScreenLabel, localizableDescriptor: "homeScreenNotLoggedIn", comment: "Home screen text label when not logged in")
+            
+            var loginButton = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(loadLoginScreen(_:)))
+            localize.setNavigationBarButtonTitle(&loginButton, localizableDescriptor: "loginDescription", comment: "Log in text on navigation bar button")
             self.HomeScreenNavBar.setRightBarButton(loginButton, animated: true)
         }else{
-            HomeScreenLabel.text = String.localizedStringWithFormat(homeScreenLabelTextLoggedIn)
+            localize.setLabelText(&HomeScreenLabel, localizableDescriptor: "homeScreenLoggedIn", comment: "Home screen text label when logged in")
         }
-    
+        
     }
     
     //Actions
-
+    
     @objc func loadLoginScreen(_ sender: UIBarButtonItem) {
         _ = UIStoryboard(name: "Main", bundle: nil)
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "LoginVCID")

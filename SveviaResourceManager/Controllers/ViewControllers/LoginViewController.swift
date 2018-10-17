@@ -9,7 +9,7 @@
 import UIKit
 
 class LoginViewController: UIViewController {
- 
+    
     @IBOutlet weak var LoginScreenEmailTextField: UITextField!
     @IBOutlet weak var LoginScreenPasswordTextField: UITextField!
     @IBOutlet weak var LoginScreenNavBar: UINavigationItem!
@@ -17,9 +17,9 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var LoginScreenLoginButton: UIButton!
     @IBOutlet weak var LoginScreenLabel: UILabel!
     
-    let localize = LocalizeStrings.init()
+    let localize = LocalizeStrings()
     
-//    var delegate: LoginSuccessDelegate?
+    //    var delegate: LoginSuccessDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,9 +36,9 @@ class LoginViewController: UIViewController {
     
     //Actions
     @IBAction func LoginScreenCancelButtonClick(_ sender: Any) {
-            dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
- 
+    
     @IBAction func LoginScreenLoginButtonAction(_ sender: Any) {
     }
     
