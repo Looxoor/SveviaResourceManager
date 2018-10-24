@@ -6,10 +6,20 @@
   Copyright © 2018 Seizemore Consulting. All rights reserved.
 */
 emailDescription = "E-postadress";
+emailEmptyTitle = "Fyll i e-postadress";
+emailEmptyMessage = "Ingen e-postadress ifylld, fyll i den och försök igen";
 passwordDescription = "Lösenord";
+passwordEmptyTitle = "Fyll i lösenord";
+passwordEmptyMessage = "Inget lösenord ifyllt, fyll i det och försök igen";
 loginDescription = "Logga in";
 homeDescription = "Hem";
 homeScreenNotLoggedIn = "Välkommen till Svevias resurshanterare!\n\nFör att kunna använda applikationen behöver du logga in.";
 homeScreenLoggedIn = "Välkommen till Svevias resurshanterare!";
-loginInfoDescription = "Använd din Svevia-mail och ett personligt lösenord för att logga in.\n\nHar du inget lösenord får du prata med din arbetsledare.";
+loginInfoDescription = "Använd din Svevia-epostadress och ett personligt lösenord för att logga in.\n\nHar du inget lösenord får du prata med din arbetsledare.";
 cancelDescription = "Avbryt";
+loginErrorTitle = "Fel vid inloggning";
+emailIncorrectlyFormattedTitle = "Fel på e-postadress!";
+emailIncorrectlyFormattedMessage = "Kolla igenom e-postadressen och fyll i den korrekt";
+logoutDescription = "Logga ut";
+logoutErrorTitle = "Fel vid utloggning";
+logoutErrorMessage = "Det uppstod ett fel vid utloggningen, var god försök senare!";
