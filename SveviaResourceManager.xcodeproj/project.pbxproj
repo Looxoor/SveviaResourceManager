@@ -18,6 +18,7 @@
 		DD8B7F5F21658E3B00092B49 /* SveviaResourceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F5E21658E3B00092B49 /* SveviaResourceManagerTests.swift */; };
 		DD8B7F6A21658E3B00092B49 /* SveviaResourceManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B7F6921658E3B00092B49 /* SveviaResourceManagerUITests.swift */; };
 		DD8B7F7921658E7900092B49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8B7F7821658E7900092B49 /* MapKit.framework */; };
+		DD8DB34421811E6700F89485 /* FBLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8DB34321811E6700F89485 /* FBLogin.swift */; };
 		DDEC03FF2166D45000180CE3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDEC03FD2166D45000180CE3 /* Localizable.strings */; };
 		DDEC0406216AD88D00180CE3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC0405216AD88D00180CE3 /* HomeViewController.swift */; };
 		DDEC040A216C16C200180CE3 /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC0409216C16C200180CE3 /* HomeNavigationController.swift */; };
@@ -70,6 +71,7 @@
 		DD8B7F6921658E3B00092B49 /* SveviaResourceManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SveviaResourceManagerUITests.swift; sourceTree = "<group>"; };
 		DD8B7F6B21658E3B00092B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD8B7F7821658E7900092B49 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DD8DB34321811E6700F89485 /* FBLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLogin.swift; sourceTree = "<group>"; };
 		DDEC03FE2166D45000180CE3 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DDEC0402216A91DE00180CE3 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
 		DDEC0405216AD88D00180CE3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 		DDEC040C216C1DD100180CE3 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				DD8DB34321811E6700F89485 /* FBLogin.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -327,6 +330,10 @@
 		DD8B7F3E21658E3A00092B49 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					0,
+					1,
+				);
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Seizemore Consulting";
@@ -505,6 +512,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD8B7F4C21658E3B00092B49 /* LoginViewController.swift in Sources */,
+				DD8DB34421811E6700F89485 /* FBLogin.swift in Sources */,
 				DDEC0410216D59F600180CE3 /* LoginDelegate.swift in Sources */,
 				DD8B7F4A21658E3B00092B49 /* AppDelegate.swift in Sources */,
 				DDEC0413216D684800180CE3 /* LocalizeStrings.swift in Sources */,
